@@ -1,0 +1,23 @@
+body {
+    margin: 0 !important;
+}
+
+.main-background {
+    background-image: url('https://laravel.com/assets/img/welcome/background.svg');
+    /* Replace 'path/to/your/image.jpg' with your actual image path */
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+    /* Prevent image repetition */
+    height: 90vh;
+    /* Set the element's height to 100% viewport height */
+}
+
+.align-middle-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
